@@ -1,2 +1,2 @@
 # cbx
-The Chrome Browser eXtension Starter
+`C`hrome `B`rowser e`X`tension - TypeScript oriented project **starter**

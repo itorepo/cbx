@@ -1,0 +1,8 @@
+{
+	"name": "${PROJECT.NAME}",
+	"version": "${PROJECT.VERSION}",
+	"manifest_version": 2,
+	"description": "${PROJECT.DESCRIPTION}",
+	"author": "Kostyantyn Didenko <kdidenko@gmail.com>"
+}
+
