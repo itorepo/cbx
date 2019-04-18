@@ -1,29 +1,35 @@
 {
-  "name": "cbx",
-  "version": "0.0.1",
-  "description": "Chrome Browser eXtension",
-  "main": "cbx.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itorepo/cbx.git"
-  },
-  "keywords": [
-    "chrome",
-    "browser",
-    "extension",
-    "starter",
-    "typescript",
-    "development",
-    "templates",
-    "projects"
-  ],
-  "author": "Kostyantyn Didenko <kdidenko@gmail.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/itorepo/cbx/issues"
-  },
-  "homepage": "https://github.com/itorepo/cbx#readme"
+	"name": "cbx",
+	"version": "0.0.1",
+	"description": "Chrome Browser eXtension",
+	"main": "cbx.js",
+	"scripts": {
+		"test": "semistandard --verbose | snazzy",
+		"build": "npm run structure && npm run compile && npm run test", 
+		"structure": "node ./automation/structure.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itorepo/cbx.git"
+	},
+	"keywords": [
+		"chrome",
+		"browser",
+		"extension",
+		"starter",
+		"typescript",
+		"development",
+		"templates",
+		"projects"
+	],
+	"author": "Kostyantyn Didenko <kdidenko@gmail.com>",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/itorepo/cbx/issues"
+	},
+	"homepage": "https://github.com/itorepo/cbx#readme",
+	"devDependencies": {
+		"semistandard": "^13.0.1",
+		"snazzy": "^8.0.0"
+	}
 }

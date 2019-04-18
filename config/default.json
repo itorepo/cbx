@@ -1,0 +1,13 @@
+{
+	"structure": {
+		"target": "./dist",
+		"source": [
+			"./tsc",
+			"./html"
+		],
+		"icons": "./icons",
+		"documents": "./docs",
+		"language": "./i18n",
+		"index": "./descriptors"
+	}
+}
